@@ -14,7 +14,7 @@ def color(out):
 alert = pyttsx3.init()
 # Load a model
 model = YOLO('Source\Models\model.pt')  #Trained model
-path = RF'Source\Image\inp\img2.jpg'
+path = RF'Source/Images/img3.jpg'
 
 # Run batched inference on a list of images
 results = model(path)  
